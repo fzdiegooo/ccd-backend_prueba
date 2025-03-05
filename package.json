@@ -8,10 +8,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
   "description": "",
-=======
->>>>>>> ce1392c (Controllers y Routes agregados)
   "dependencies": {
     "@aws-sdk/client-s3": "^3.651.1",
     "@aws-sdk/s3-request-presigner": "^3.654.0",
@@ -50,10 +47,5 @@
     "@types/request": "^2.48.12",
     "nodemon": "^3.1.9",
     "typescript": "^5.5.4"
-<<<<<<< HEAD
   }
-=======
-  },
-  "description": ""
->>>>>>> ce1392c (Controllers y Routes agregados)
 }
