@@ -24,3 +24,10 @@ router.get("/respuestasalumno", ReportsController.getRespuestasAlumno);
 router.get("/tipoevaluaciones", ReportsController.getTipoEvaluaciones);
 
 export default router;
+//usuarios
+
+/* get("/cursos")
+get("/salas")
+
+//evaluaciones
+get(":idusuario") */

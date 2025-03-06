@@ -12,15 +12,9 @@ class Database{
 
     init(){
         try{
-<<<<<<< HEAD
-            const name = process.env.DB_NAME || "ingenia-db";
-            const user = process.env.DB_USER || "root";
-            const password = process.env.DB_PASSWORD || "DBRubik1";
-=======
             const name = process.env.DB_NAME || "ingeniadb";  //ingenia-db
             const user = process.env.DB_USER || "root";
-            const password = process.env.DB_PASSWORD || "kakaroto123";   //DBRubik1
->>>>>>> ce1392c (Controllers y Routes agregados)
+            const password = process.env.DB_PASSWORD || "12345678";   //DBRubik1
             const dialect = (process.env.DB_DIALECT as Dialect) || "mysql";
             const host = process.env.DB_HOST || "localhost";
             const port = parseInt(process.env.DB_PORT || "3306")
